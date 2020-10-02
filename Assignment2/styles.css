@@ -1,0 +1,167 @@
+
+nav ul {
+   list-style-type:none ;
+   float: right;
+
+}
+
+.index{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 2px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+   font-size: 20px;
+   border: 1px solid rgba(0,0,0,0) transparent;
+   border-radius: 20px;
+   padding: 10px ;
+   
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;;
+}
+
+.logo  {
+    width:200px;
+    height: auto;
+    float: left;
+    top:0%;
+    padding-top:0px;
+    padding: 0px;
+    margin: 0px;;
+}
+
+#quote{
+    
+    color:white;
+    position: absolute;
+    top: 45%;
+    left:28%;
+}
+#contactid{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+}
+#aboutusid
+{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    color: white;
+    font-size: 40px;  
+}
+#hee1{
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 40%;
+    left:35%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#hee2{
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left:5%;
+    right: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#hee3{
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left:5%;
+    right: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sub{
+display: none;
+padding: 40px;
+}
+.sub ul li{
+    padding: 2px;
+    margin: 5px;
+}
+
+nav ul li:hover .sub {
+    display: block;
+    position: absolute;
+    padding: 15.5px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+nav ul li:hover .sub ul{
+    display: block;
+    position: absolute;
+    margin:2px;
+    margin-left: -60px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.responsive .gallery{
+    float: left;
+    width: 25%;
+    padding: 5px ;
+
+}
+
+div.gallery a img:hover{
+    border: 1px solid black;
+    border-width: medium;
+
+}
+#galnav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#galnav{
+    position: fixed;
+    margin-left: 800px;
+}
+.gal{
+    background-color: rgba(0,0,0);
+}
+.gal h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:1024px){
+    .responsive .gallery{
+        width:50%;
+        margin: 6px 0px;
+    }
+}
+
+@media only screen and(max-width:480px){
+    .responsive .gallery{
+        width: 100%;
+        margin:6px ;
+    }
+}
